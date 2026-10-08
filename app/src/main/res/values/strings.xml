@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Toddler Guard</string>
+    <string name="tile_label">Toddler Lock</string>
+
+    <string name="main_intro">Locks the screen over any app (videos, games, video calls) so little fingers can\'t press anything. The screen stays on, and only a parent\'s fingerprint can unlock it.</string>
+    <string name="setup_header">Setup</string>
+    <string name="use_header">Lock the screen</string>
+
+    <string name="perm_overlay_title">Display over other apps</string>
+    <string name="perm_overlay_desc">Needed so the lock can sit on top of the app your child is using.</string>
+    <string name="perm_biometric_title">Parent fingerprint</string>
+    <string name="perm_biometric_desc">Unlocking needs a fingerprint enrolled on this device. Only enroll fingers belonging to parents.</string>
+    <string name="perm_notifications_title">Notifications (optional)</string>
+    <string name="perm_notifications_desc">Shows a status notification while the lock is active.</string>
+
+    <string name="status_ok">✓ Ready</string>
+    <string name="status_missing">✗ Not set up</string>
+    <string name="status_no_hardware">✗ This device has no supported fingerprint sensor</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_enroll">Enroll</string>
+
+    <string name="action_lock_now">Lock now</string>
+    <string name="action_lock_delayed">Lock in %1$d seconds</string>
+    <string name="action_add_tile">Add Quick Settings tile</string>
+    <string name="use_hint">Fastest way: open the app your child will use, swipe down, and tap the \"Toddler Lock\" Quick Settings tile. Or tap \"Lock in %1$d seconds\" here and switch to the app.\n\nTo unlock: press and hold the lock badge in the corner, then touch the fingerprint sensor.</string>
+    <string name="setup_incomplete">Finish setup first.</string>
+
+    <string name="overlay_hint">Screen locked\nHold the 🔒 then use your fingerprint to unlock</string>
+    <string name="overlay_badge_desc">Hold to unlock</string>
+
+    <string name="prompt_title">Unlock Toddler Guard</string>
+    <string name="prompt_subtitle">Parent fingerprint required</string>
+    <string name="prompt_cancel">Keep locked</string>
+
+    <string name="notif_channel">Lock status</string>
+    <string name="notif_locked_title">Screen is locked</string>
+    <string name="notif_locked_text">Tap to unlock with your fingerprint</string>
+    <string name="notif_countdown_title">Locking in %1$d s…</string>
+    <string name="notif_countdown_text">Switch to the app your child will use</string>
+    <string name="notif_cancel">Cancel</string>
+</resources>
